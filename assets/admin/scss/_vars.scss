@@ -1,0 +1,38 @@
+@import "./breakpoint";
+
+$primaryColor: #1C3496;
+$secondaryColor: #5BCADD;
+$errorColor: #B60F0F;
+$warningColor: #FFA85D;
+$successColor: #2DCE98;
+
+$darkBlue: #172B4D;
+$lightRed: #B60F0F;
+
+$gold: #FFA85D;
+
+$whiteBg: #f8f8f8;
+$bluishWhite: #f9fdff;
+$grey: #A0ADBB;
+
+$bluish-1: #8898AA;
+
+$inputBorderColor:#d9dce4;
+$inputBg:#F1F2F5;
+
+$toolbarHeight: 8.5rem;
+$mobileToolbarHeight: 5.5rem;
+
+$sideNavWidth: 265px;
+$sideNaveCollapseWidth: 80px;
+$bredcrumbHeight: 10.6rem;
+$mobileBredcrumbHeight:8.6rem;
+
+$formFieldTextColor:#535a63;
+
+// Card Styles
+$cardPadding: ('xs':20px,
+    'sm':30px,
+    'md': 25px 30px,
+    'lg': 30px);
+$cardShadow:0 3px 12px rgba(132, 132, 132, 0.16);

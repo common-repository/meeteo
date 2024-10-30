@@ -1,0 +1,50 @@
+table.me-table {
+    border: none;
+    border-collapse: collapse;
+    background-color: white;
+}
+table.me-table tr {
+    border: none
+}
+table.me-table tr th,
+table.me-table tr td {
+    padding: 12px 16px;
+    border: none;
+    text-align: left;
+    vertical-align: middle
+}
+table.me-table tr td {
+    padding: 16px;
+    font-weight: normal;
+    font-size:initial;
+}
+table.me-table thead {
+    background-color: #f5f7fb
+}
+table.me-table thead tr th {
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-weight: 400;
+    font-size:initial;
+    /*text-transform: uppercase*/
+}
+table.me-table thead tr th a:focus,
+table.me-table thead tr th a:visited,
+table.me-table thead tr th a:active {
+    outline: none;
+    box-shadow: none
+}
+table.me-table tbody tr:nth-child(even) {
+    background-color: #f5f7fb
+}
+table.me-table tbody tr td h6 {
+    font-weight: 600 !important
+}
+table.me-table tbody tr td.nodata {
+    color: #a0adbb;
+    text-align: center
+}
+table.me-table tbody tr[style^=height] {
+    display: none
+}
